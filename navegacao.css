@@ -1,0 +1,32 @@
+header {
+    background: #BA1F33;
+    height: 80px;
+}
+
+.caixa {
+    position: relative;
+}
+
+
+.logo {
+    height: 60px;
+    margin: 10px 20px;
+}
+
+nav {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.itensnav {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 22px;
+    text-decoration: none;
+}
