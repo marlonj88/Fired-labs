@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #FFB06D;
+    background-color: #032859;
     border-bottom: 10px solid #000;
     padding: 10px 20px;
 }
@@ -26,7 +26,7 @@ nav a {
 
 a:not(.button)::before {
     content: "";
-    background-color: #032859;
+    background-color: #FE6A2C;
     width: 10px;
     height: 10px;
     margin: 10px;
@@ -34,7 +34,7 @@ a:not(.button)::before {
 
 .button {
     display: inline-block; /* Inline - não permite a alteração na altura(height) e tamanho(width). */
-    background-color: #032859;
+    background-color: #FE6A2C;
     /* line-height: 60px; /* Só é possível fazer isso quando há apenas uma linha, o varlor tem que ser igual o height.
     height: 60px; */
     padding: 17px 20px;
@@ -43,11 +43,11 @@ a:not(.button)::before {
 }
 
 .button:hover { /* Muda a cor ao colocar o mouse em cima. */
-    background-color: #016F94;
+    background-color: #FFB06D;
 }
 
 .button:active { /* Muda a cor ao clicar. */
-    background-color: #016F94;
+    background-color: #FFB06D;
 }
 
 .spider {
