@@ -1,32 +1,55 @@
 header {
-    background: #BA1F33;
-    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFB06D;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
 }
-
-.caixa {
-    position: relative;
-}
-
 
 .logo {
-    width: 60px;
-    margin: 10px 20px;
+    height: 60px;
 }
 
 nav {
-    position: absolute;
-    right: 20px;
-    top: 10px;
-}
-
-.itensnav {
-    display: inline;
-    margin: 0 0 0 15px;
+    text-align: right;
 }
 
 nav a {
+    display: inline-flex;
     color: #ffffff;
-    font-weight: 300;
-    font-size: 22px;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Arial, Helvetica, sans-serif;
+    font-weight: 500;
     text-decoration: none;
+    margin: 0 30px 0 0; /* Sentido horário */
+}
+
+a:not(.button)::before {
+    content: "";
+    background-color: #032859;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+}
+
+.button {
+    display: inline-block; /* Inline - não permite a alteração na altura(height) e tamanho(width). */
+    background-color: #032859;
+    /* line-height: 60px; /* Só é possível fazer isso quando há apenas uma linha, o varlor tem que ser igual o height.
+    height: 60px; */
+    padding: 17px 20px;
+    box-shadow: 6px 6px 2px #000000;
+    margin-right: 0;
+}
+
+.button:hover { /* Muda a cor ao colocar o mouse em cima. */
+    background-color: #016F94;
+}
+
+.button:active { /* Muda a cor ao clicar. */
+    background-color: #016F94;
+}
+
+.spider {
+    width: 100%;
 }
