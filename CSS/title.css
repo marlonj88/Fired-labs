@@ -1,6 +1,24 @@
+div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3A4042;
+    box-shadow: 10px 10px 0 #000;
+    margin: 116px 0 0 91px;
+}
+
 h1 {
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: "Press Start 2P", sans-serif;
     font-size: 40px;
-    color: #FE6A2C;
+    color: #F25A70;
     text-shadow: 4px 4px 0 #000;
+    margin: 42px 93px 28px;
+}
+
+h2 {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 4px 4px 0 #000;
+    margin-bottom: 44px;
 }
