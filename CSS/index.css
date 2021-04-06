@@ -52,3 +52,13 @@ a:not(.button)::before {
 .button:active {
     background-color: #ff8b9c;
 }
+
+#foto {
+    width: 100%;
+}
+
+#box {
+    position: absolute;
+    left: 0px;
+    top: 90px;
+}
