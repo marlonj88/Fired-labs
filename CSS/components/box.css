@@ -1,0 +1,23 @@
+#box {
+    position: absolute;
+    left: 0px;
+    top: 90px;
+}
+
+.boxTitle {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3A4042;
+    box-shadow: 10px 10px 0 #000;
+    margin: 116px 0 0 91px;
+}
+
+.boxButton a {
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    margin: 38px 0 0 181px;
+}

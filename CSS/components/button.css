@@ -1,10 +1,20 @@
-.boxButton a {
-    font-size: 20px;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    color: #fff;
-    margin: 38px 0 0 181px;
+.button {
+    display: inline-block;
+    background-color: #f25a70;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    box-shadow: 5px 5px 0px #000;
+    margin-right: 0px;
+    transition: transform 200ms cubic-bezier(0.39, 0.58, 0.63, 1.72);
+}
+
+.button:hover {
+    transform: scale(1.07)
+}
+
+.button:active {
+    background-color: #ff8b9c;
 }
 
 #bContatos {
