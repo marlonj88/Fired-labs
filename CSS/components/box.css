@@ -1,7 +1,4 @@
 .box {
-    position: absolute;
-    left: 91px;
-    top: 196px;
     display: inline-block;
     background-color: #0E3740;
     box-shadow: 10px 10px 0 #FFF;
