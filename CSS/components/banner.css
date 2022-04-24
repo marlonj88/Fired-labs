@@ -2,9 +2,9 @@
     box-sizing: border-box;
     background-image: url(../../assets/img/maxresdefault.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 718px;
-    border-bottom: 10px solid #3A8C8C;
+    border-bottom: 10px solid #FFF;
     padding-top: 115px;
     padding-left: 90px;
 }
